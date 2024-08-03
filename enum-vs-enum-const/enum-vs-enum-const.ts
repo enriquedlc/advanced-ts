@@ -1,4 +1,4 @@
-enum ProcessState {
+const enum ProcessState {
   NotStarted,
   InProgress,
   Completed,
