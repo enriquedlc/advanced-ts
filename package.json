@@ -1,0 +1,20 @@
+{
+  "name": "advanced-ts",
+  "version": "1.0.0",
+  "description": "- **removeCommets**: removes comments from the compiled js file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "axios": "1.7.3",
+    "express": "4.19.2"
+  }
+}
