@@ -10,7 +10,7 @@ interface CourseEnrollBody {
   courseId: string;
 }
 
-// typed because we are using the body
+// the req object is typed because we are using the body line 17
 app.post(
   "api/courses/enroll",
   async (req: PostRequest<CourseEnrollBody>, res) => {
@@ -24,7 +24,7 @@ app.post(
 
 /**
  * if we want to use the body we will have to specify
- * the type of the body in the request
+ * the type of the body in the request if not we will get a typescript error
  */
 // not typed to see the difference
 app.post("api/courses/enroll", async (req: PostRequest, res) => {
